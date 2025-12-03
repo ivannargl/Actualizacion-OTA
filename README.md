@@ -2,7 +2,7 @@
 
 Este proyecto implementa un nodo IoT basado en ESP32 utilizando el framework oficial de Espressif (ESP-IDF). El sistema detecta la presencia de objetos mediante un sensor infrarrojo, reporta el estado vía MQTT con TLS/SSL y permite el control remoto de un actuador (LED), además de soportar actualizaciones de firmware inalámbricas (OTA).
 
-![Diagrama de Conexión](Fritzing_Diagram.jpg)
+![Diagrama de Conexión](Fritzing_Diagram.png)
 
 ## 📋 Características
 
@@ -38,5 +38,5 @@ La configuración de pines está definida en `main/simple_ota_example.c`:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <URL_DE_TU_REPO>
 cd <NOMBRE_DE_TU_CARPETA>
+git clone <URL_DEL_REPO>
