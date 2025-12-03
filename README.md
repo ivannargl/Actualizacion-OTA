@@ -4,7 +4,7 @@ Este proyecto implementa un nodo IoT basado en ESP32 utilizando el framework ofi
 
 ![Diagrama de Conexión](Fritzing_Diagram.png)
 
-## 📋 Características
+## Características
 
 * **Detección de Objetos:** Uso de sensor IR (FC-51) para detección de proximidad.
 * **Modos de Operación:**
@@ -15,7 +15,7 @@ Este proyecto implementa un nodo IoT basado en ESP32 utilizando el framework ofi
 * **Identidad Única:** Generación de UUID basado en la MAC address del ESP32.
 * **Persistencia:** Uso de NVS (Non-Volatile Storage) para configuraciones.
 
-## 🛠 Hardware Requerido
+## Hardware Requerido
 
 * **Microcontrolador:** ESP32 DevKit V1 (ESP-WROOM-32).
 * **Sensor:** Módulo Infrarrojo de Obstáculos (FC-51).
@@ -23,7 +23,7 @@ Este proyecto implementa un nodo IoT basado en ESP32 utilizando el framework ofi
 * **Resistencia:** 220Ω o 330Ω (para el LED).
 * **Conexiones:** Cables Jumper y Protoboard.
 
-## 🔌 Diagrama de Conexiones (Pinout)
+## Diagrama de Conexiones (Pinout)
 
 La configuración de pines está definida en `main/simple_ota_example.c`:
 
@@ -34,7 +34,7 @@ La configuración de pines está definida en `main/simple_ota_example.c`:
 
 > **Nota:** El sensor IR debe calibrarse usando el potenciómetro integrado para ajustar la distancia de detección.
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Clonar el repositorio
 ```bash
