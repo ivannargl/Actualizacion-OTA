@@ -1,0 +1,13 @@
+# Directorio de compilación (pesa mucho y se genera solo)
+/build/
+
+# Configuración del proyecto (aquí van tus claves de WiFi)
+sdkconfig
+sdkconfig.old
+
+# Archivos temporales de VS Code
+.vscode/
+.idea/
+
+# Archivos de Python compilados
+__pycache__/
